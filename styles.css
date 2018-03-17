@@ -1,4 +1,4 @@
-
+/* Index stuff and other code for whole site*/
 #main {
 	position: relative;
 }
@@ -6,7 +6,7 @@
 #main:after {
     content : "";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url("mickey.jpg"); 
@@ -16,7 +16,19 @@
     z-index: -1;
 }
 
+.imgcent {
+	display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+}
+
 .castle {
+	padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    padding-left: 80px;
 	position: static;
 	height: 100%;
 	width: 100%;
@@ -26,6 +38,10 @@
 	position: static;
 	height: 30%;
 	width: 30%;
+}
+
+
+
 }	
 
 div {
@@ -41,16 +57,40 @@ body {
 	
 }
 
-p {
+p.center {
+	text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 h1 {
+	text-align: center;
 	color: Blue;
 	font-family: cursive;
 }
 
 
+/* Menu page buttons*/
+.but {
+height: 50px;
+	width: 120px;
+    border-color: darkGreen;
+	background-color: #BCD2EE;
+	border-style: solid;
+	border-width:2px;
+	border-radius:5px;
+	text-align: center;
+	font-family: cursive;
+	color: black;
+	margin: auto;
+
+}
+
+
+
+
+.textno {
+	text-decoration: none;
+}
