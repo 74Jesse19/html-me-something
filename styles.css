@@ -65,7 +65,7 @@ div {
 body {
 
 	color: white;
-	background-color: black;	
+	background-color: gray;	
 	
 }
 
@@ -79,7 +79,7 @@ p.center {
 
 h1 {
 	text-align: center;
-	color: Blue;
+	color: Black;
 	font-family: cursive;
 }
 
